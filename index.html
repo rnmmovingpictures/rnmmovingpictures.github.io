@@ -80,6 +80,9 @@
     <!-- Styleswitcher ( This style is for demo purposes only, you may delete this anytime. ) -->
     <link rel="stylesheet" id="theme-switch" href="css/style.css">
     <!-- End demo purposes only -->
+<!-- Working Carousel-->
+<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+<!-- Working Carousel-->
 
 
     <!-- Modernizr JS -->
@@ -117,68 +120,58 @@
     </header>
     
     
-    	<div id="slider" data-section="home">
-		<div class="owl-carousel owl-carousel-fullwidth">
-			<!-- You may change the background color here. -->
-		    <div class="item" style="background: #352f44;">
-		    	<div class="container" style="position: relative;">
-		    		<div class="row">
-					    <div class="col-md-7 col-sm-7">
-			    			<div class="fh5co-owl-text-wrap">
-						    	<div class="fh5co-owl-text">
-						    		<h1 class="fh5co-lead to-animate">Case Study Title</h1>
-									<h2 class="fh5co-sub-lead to-animate">100% Free Fully Responsive HTML5 Bootstrap Template. Crafted with love by the fine folks at <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a></h3>
-									<p class="to-animate-2"><a href="#" class="btn btn-primary btn-lg">View Case Study</a></p>
-						    	</div>
-						    </div>
-					    </div>
-					    <div class="col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 iphone-image">
-					    	<div class="iphone to-animate-2"><img src="images/iphone-2.png" alt="Free HTML5 Template by FREEHTML5.co"></div>
-					    </div>
+    	
+	<div id="carousel-example" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example" data-slide-to="1"></li>
+			<li data-target="#carousel-example" data-slide-to="2"></li>
+		</ol>
 
-		    		</div>
-		    	</div>
-		    </div>
-			<!-- You may change the background color here.  -->
-		    <div class="item" style="background: #38569f;">
-		    	<div class="container" style="position: relative;">
-		    		<div class="row">
-		    			<div class="col-md-7 col-md-push-1 col-md-push-5 col-sm-7 col-sm-push-1 col-sm-push-5">
-			    			<div class="fh5co-owl-text-wrap">
-						    	<div class="fh5co-owl-text">
-						    		<h1 class="fh5co-lead to-animate">Case Study Title</h1>
-									<h2 class="fh5co-sub-lead to-animate">100% Free Fully Responsive HTML5 Bootstrap Template. Crafted with love by the fine folks at <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a></h3>
-									<p class="to-animate-2"><a href="#" class="btn btn-primary btn-lg">View Case Study</a></p>
-						    	</div>
-						    </div>
-					    </div>
-					    <div class="col-md-4 col-md-pull-7 col-sm-4 col-sm-pull-7 iphone-image">
-					    	<div class="iphone to-animate-2"><img src="images/iphone-1.png" alt="Free HTML5 Template by FREEHTML5.co"></div>
-					    </div>
+		<div class="carousel-inner">
+			<div class="item active">
+				<a href="#"><img
+						src="https://cloud.githubusercontent.com/assets/10175853/17581170/71b4a4fe-5fc1-11e6-8e23-4fdd5e25860b.jpg"/></a>
+				<div class="carousel-caption">
+					<h3>What do you get when you combine brands with 30 years of hindi cinema experience with 30 years
+						of technology and medical experience?</h3>
+					<p></p>
+				</div>
+			</div>
+			<div class="item">
+				<a href="#"><img
+						src="https://cloud.githubusercontent.com/assets/10175853/17581171/735e5566-5fc1-11e6-93e3-03c7107e3314.jpg"/></a>
+				<div class="carousel-caption">
+					<h3></h3>
+					<p>As they say content is king and the one who controls it controls everything.
 
-		    		</div>
-		    	</div>
-		    </div>
+						The story ultimately must be enthralling and capture your interest. The medium is just the
+						canvas on which you paint. </p>
+				</div>
+			</div>
+			<div class="item">
+				<a href="#"><img
+						src="https://cloud.githubusercontent.com/assets/10175853/17581184/8df9fb64-5fc1-11e6-9e7c-857db6f92562.jpg"/></a>
+				<div class="carousel-caption">
+					<h3></h3>
+					<p>As we see it, all screens will converge. Content will be rendered in a format which transcends
+						its medium.
 
-		    <div class="item" style="background-image:url(images/slide_5.jpg)">
-		    	<div class="overlay"></div>
-		    	<div class="container" style="position: relative;">
-		    		<div class="row">
-		    			<div class="col-md-8 col-md-offset-2 text-center">
-		    				<div class="fh5co-owl-text-wrap">
-						    	<div class="fh5co-owl-text">
-		    						<h1 class="fh5co-lead to-animate">Grab it now for free!</h1>
-									<h2 class="fh5co-sub-lead to-animate">100% Free Fully Responsive HTML5 Bootstrap Template. Crafted with love by the fine folks at <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a></h3>
-									<p class="to-animate-2"><a href="http://freehtml5.co/" target="_blank" class="btn btn-primary btn-lg">Download This Template</a></p>
-								</div>
-							</div>
-		    			</div>
-		    		</div>
-		    	</div>
-		    </div>
-
+						In the end it is about listening well and then telling a story: one which makes sense, is
+						timely, and heartfelt. </p>
+				</div>
+			</div>
 		</div>
+
+		<a class="left carousel-control" href="#carousel-example" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+		<a class="right carousel-control" href="#carousel-example" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</a>
 	</div>
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
     
 
 <div id="fh5co-about-us" data-section="about">
