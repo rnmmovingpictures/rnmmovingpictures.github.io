@@ -75,7 +75,7 @@
 	};
 
 
-	// Burger Menu
+	// HamBurger Menu
 	var burgerMenu = function() {
 
 		$('body').on('click', '.js-fh5co-nav-toggle', function(event){
@@ -212,7 +212,7 @@
 
 	};
 
-	// Team
+	// Products
 	var teamAnimate = function() {
 
 		if ( $('#team').length > 0 ) {	
@@ -247,7 +247,7 @@
 
 	};
 
-	// Services
+	// News and Events
 	var servicesAnimate = function() {
 
 		if ( $('#fh5co-our-services').length > 0 ) {	
@@ -328,7 +328,7 @@
 	};
 
 
-	// testimonials
+	// Contact
 	var testimonialsAnimate = function() {
 
 		if ( $('#fh5co-testimonials').length > 0 ) {	
@@ -361,7 +361,7 @@
 
 	};
 
-	// Pricing
+	// Pop-up
 	var pricingAnimate = function() {
 
 		if ( $('#fh5co-pricing').length > 0 ) {	
@@ -399,7 +399,7 @@
 
 	};
 
-	// Pricing
+	// Pop-up
 	var pressAnimate = function() {
 
 		if ( $('#fh5co-press').length > 0 ) {	
